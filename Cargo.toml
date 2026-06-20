@@ -1,0 +1,13 @@
+[package]
+name = "void-engine"
+version = "0.1.0"
+edition = "2021"
+description = "A real-time 3D physics engine built with Rust and WebGPU. Features particle-based fluid simulation and dynamic lighting."
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+cgmath = "0.18"
+rand = "0.8"
+wasm-bindgen = "0.2"

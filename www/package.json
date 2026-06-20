@@ -1,0 +1,11 @@
+{
+  "name": "void-engine-demo",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vite": "^6.0.0"
+  }
+}
